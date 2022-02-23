@@ -1,5 +1,5 @@
 const crypto = require('crypto')
-require('./tool.js')();
+require('./aes.js')();
 
 function test1() {
   let my_key = "sixteen-byte-key";
